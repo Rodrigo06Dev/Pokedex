@@ -1,0 +1,36 @@
+.pokedex__select {
+    width: 20vw;
+    border: none;
+    box-shadow: -1px 2px 10px #0004;
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.pokedex__select::-webkit-scrollbar {
+    display: none;
+}
+
+option:checked {
+    background-color: #ED8F8F;
+    color: white;
+}
+
+@media ( max-width: 600px) {
+    .pokedex__select {
+        width: 45vw;
+        border: none;
+        box-shadow: -1px 2px 10px #0004;
+        font-size: 1rem;
+        padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+        line-height: 1.5;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin-bottom: 1em;
+    }
+   
+}
