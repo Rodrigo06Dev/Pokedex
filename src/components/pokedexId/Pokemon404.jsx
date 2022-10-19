@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Header } from '../shared/Header'
-import  error404 from '../../../public/imagen1.png'
+import  error404 from '../../assets/Imagen1.png'
 import './styles/pokemon404.css'
 
 const Pokemon404 = () => {
